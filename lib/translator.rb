@@ -8,6 +8,7 @@ def load_library(file_path)
     meaning = result["get_meaning"][emoticons[1]]
     emoticons[1] = result["get_emoticon"][emoticons[0]]
 end
+result
 end 
 
 =begin def load_library(file_path)
